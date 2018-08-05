@@ -1,0 +1,87 @@
+{
+  "tableColumn": [{
+      "prop": "salesNo",
+      "label": "销售编号",
+      "width":"100px"
+    },
+    {
+      "prop": "goodsGroup",
+      "label": "销售商品",
+      "width":"200px"
+    },
+    {
+      "prop": "salesMoneySum",
+      "label": "应收金额",
+      "width":"100px"
+    },
+    {
+      "prop": "reciveMoney",
+      "label": "实收金额",
+      "width":"100px"
+    },
+    {
+      "prop": "changeMoney",
+      "label": "找零",
+      "width":"100px"
+    },
+    {
+      "prop": "salesCountSum",
+      "label": "数量汇总",
+      "width":"100px"
+    },
+   
+    {
+      "prop": "salesAddTime",
+      "label": "添加时间",
+      "width":"150px"
+    }
+  ],
+  "addform": {
+    "goodsNo":"", 
+    "goodsName":"", 
+    "goodsPrice":0, 
+    "goodsSalesCount":0, 
+    "reciveMoney":0,
+    "changeMoney":0
+  },
+  "editform":{
+    "returnStockState":""
+  },
+  "rules": {
+    "goodsNo": [{
+      "required": true,
+      "message": "请输入商品编号",
+      "trigger": "blur"
+    }],
+    "goodsName": [{
+      "required": true,
+      "message": "请输入商品名",
+      "trigger": "blur"
+    }],
+    "supName": [{
+      "required": true,
+      "message": "请选择供应商",
+      "trigger": "blur"
+    }],
+    "returnStockTime": [{
+      "required": true,
+      "message": "请选择退货时间",
+      "trigger": "blur"
+    }],
+    "goodsPrice": [{
+      "required": true,
+      "message": "请输入价格",
+      "trigger": "blur"
+    }],
+    "returnStockCount": [{
+      "required": true,
+      "message": "请输入退货数量",
+      "trigger": "blur"
+    }],
+    "returnStockReason ": [{
+      "required": true,
+      "message": "请输入退后原因",
+      "trigger": "blur"
+    }]
+  }
+}
