@@ -1,0 +1,14 @@
+{
+  "admDropdown":[{
+    "text":"权限切换",
+    "clickEvent":"changePermission"
+  },
+  {
+    "text":"资料修改",
+    "clickEvent":"changeInfo"
+  }],
+  "editorDropdown":[{
+    "text":"资料修改",
+    "clickEvent":"changeInfo"
+  }]
+}
