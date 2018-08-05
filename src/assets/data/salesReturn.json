@@ -1,0 +1,56 @@
+{
+  "tableColumn": [
+    {
+      "prop": "returnGoodsNo",
+      "label": "订单编号"
+    },
+    {
+      "prop": "salesNo",
+      "label": "销售编号"
+    },
+    {
+      "prop": "goodsNo",
+      "label": "商品编号"
+    },
+    {
+      "prop": "supName",
+      "label": "供应商"
+    },
+    {
+      "prop": "returnGoodsCount",
+      "label": "退货数量"
+    }
+  ],
+  "addform": {
+    "salesNo":"",
+    "goodsNo":"", 
+    "goodsName":"", 
+    "supName":"", 
+    "returnAddTime":"", 
+    "goodsPrice":"", 
+    "returnGoodsCount":"", 
+    "returnGoodsReason":""
+  },
+  "rules": {
+    "salesNo": [{
+      "required": true,
+      "message": "请输入销售编号",
+      "trigger": "blur"
+    }],
+    "goodsName": [{
+      "required": true,
+      "message": "请输入商品名",
+      "trigger": "blur"
+    }],
+    "returnGoodsCount": [{
+      "required": true,
+      "message": "请输入退货数量",
+      "trigger": "blur"
+    }],
+    "returnGoodsReason": [{
+      "required": true,
+      "message": "请输入退货原因",
+      "trigger": "blur"
+    }]
+  }
+}

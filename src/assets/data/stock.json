@@ -1,0 +1,94 @@
+{
+  "tableColumn": [{
+      "prop": "stockNo",
+      "label": "订单编号",
+      "width":"100px"
+    },
+    {
+      "prop": "goodsGroup",
+      "label": "采购商品",
+      "width":"150px"
+    },
+    {
+      "prop": "stockCountSum",
+      "label": "数量汇总",
+      "width":"100px"
+    },
+    {
+      "prop": "stockMoneySum",
+      "label": "金额汇总",
+      "width":"100px"
+    },
+    {
+      "prop": "stockAddTime",
+      "label": "添加时间",
+      "width":"150px"
+    }
+  ],
+  "stockTableColumn": [{
+      "prop": "stockNo",
+      "label": "进货编号",
+      "width":"100"
+    },
+    {
+      "prop": "goodsNo",
+      "label": "商品编号",
+      "width":"100"
+    },
+    {
+      "prop": "goodsName",
+      "label": "商品名",
+      "width":"130"
+    },
+    {
+      "prop": "supName",
+      "label": "供应商名",
+      "width":"150"
+    },
+    {
+      "prop": "stockPrice",
+      "label": "进价",
+      "width":"100"
+    },
+    {
+      "prop": "goodsPrice",
+      "label": "价格",
+      "width":"100"
+    },
+    {
+      "prop": "stockCount",
+      "label": "采购数量",
+      "width":"100"
+    },
+    {
+      "prop": "stockMoney",
+      "label": "采购金额",
+      "width":"100"
+    },
+    {
+      "prop": "stockAddTime",
+      "label": "采购时间",
+      "width":"130"
+    }
+  ],
+  "editform": {
+   "stockState":""
+  },
+  "rules": {
+    "goodsName": [{
+      "required": true,
+      "message": "请输入商品名",
+      "trigger": "blur"
+    }],
+    "goodsType": [{
+      "required": true,
+      "message": "请输选择类型",
+      "trigger": "blur"
+    }],
+    "goodsModel": [{
+      "required": true,
+      "message": "请输入型号",
+      "trigger": "blur"
+    }]
+  }
+}

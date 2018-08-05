@@ -1,0 +1,91 @@
+{
+  "tableColumn": [{
+      "prop": "supNo",
+      "label": "供应商编号",
+      "width":"110px"
+    },
+    {
+      "prop": "supName",
+      "label": "公司名",
+      "width":"100px"
+    },
+    {
+      "prop": "supLawyer",
+      "label": "法人代表",
+      "width":"100px"
+    },
+    {
+      "prop": "supTel",
+      "label": "电话",
+      "width":"70px"
+    },
+    {
+      "prop": "supAddress",
+      "label": "供应商地址",
+      "width":"110px"
+    }
+  ],
+  "infoTableColumn": [{
+      "prop": "supNo",
+      "label": "供应商编号",
+      "width":"110px"
+    },
+    {
+      "prop": "supName",
+      "label": "公司名",
+      "width":"200px"
+    },
+    {
+      "prop": "supLawyer",
+      "label": "法人代表",
+      "width":"100px"
+    },
+    {
+      "prop": "supTel",
+      "label": "电话",
+      "width":"120px"
+    },
+    {
+      "prop": "supAddress",
+      "label": "供应商地址",
+      "width":"200px"
+    },
+    {
+      "prop": "supState",
+      "label": "状态",
+      "width":"120px"
+    }
+  ],
+  "editform": {
+    "supName": "",
+    "supLawyer":"",
+    "supTel": "",
+    "supQQ": "",
+    "supAddress": "",
+    "supState":""
+  },
+  "addform": {
+    "supName": "",
+    "supLawyer":"",
+    "supTel": "",
+    "supQQ": "",
+    "supAddress": ""
+  },
+  "rules": {
+    "supName": [{
+      "required": true,
+      "message": "请输入姓名",
+      "trigger": "blur"
+    }],
+    "supLawyer": [{
+      "required": true,
+      "message": "请输入法人姓名",
+      "trigger": "blur"
+    }],
+    "supTel": [{
+      "required": true,
+      "message": "请输入电话",
+      "trigger": "blur"
+    }]
+  }
+}
